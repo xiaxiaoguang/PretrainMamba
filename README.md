@@ -27,7 +27,9 @@ def load_params(self,state_dict,frozentype):
 
 * Pretrain
 
+```bash
     python main.py --mod pretrain --datasetname NAME --device 0
+```
 
 * Infrecence
 
@@ -35,7 +37,10 @@ def load_params(self,state_dict,frozentype):
 
     Second, change the inference params in config.toml
 
-    Third, run:     python main.py --mod inference --datasetname NAME --device 0
+    Third, run:     
+```bash 
+        python main.py --mod inference --datasetname NAME --device 0
+```
 
 * Attention
 
