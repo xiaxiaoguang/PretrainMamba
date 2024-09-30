@@ -1,0 +1,20 @@
+[pretrain]
+[pretrain.model]
+d_model=128
+n_layer=1
+[pretrain.train]
+epoch=100
+lr=1e-4
+weight_decay_rate=1e-4
+
+[inference]
+[inference.model]
+d_model=128
+n_layer=4
+pre_layer=[0,1,2,3]
+frozentype='selectAD'
+mamba_load_path='#Mamba pretrained block path.'
+[inference.train]
+epoch=50
+lr=1e-4
+weight_decay_rate=1e-4
