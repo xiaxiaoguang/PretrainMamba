@@ -1,0 +1,35 @@
+[pretrain]
+[pretrain.model]
+d_model=128
+d_conv=2
+e_fact=4
+d_state=16
+n_layer=1
+[pretrain.train]
+epoch=150
+lr=1e-4
+weight_decay_rate=1e-4
+
+[inference]
+[inference.model]
+e_layers=3
+d_model=128
+d_state=16
+d_conv=2
+e_fact=4
+pre_layer=[-1]
+frozentype='none'
+load_path='Add your model path here'
+[inference.train]
+epoch=50
+lr=3e-4
+milestones=[40]
+gamma=0.5
+weight_decay_rate=2e-5
+
+[test]
+load_path='Add your folder path here'
+
+[test_all]
+load_folder='Add your folder path here'
+
