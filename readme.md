@@ -2,6 +2,8 @@
 
 An official code implementation for Mamba repetitive contrastive learning.
 
+![pairwise_distance_matrix3](https://github.com/user-attachments/assets/7df8322c-e643-4df4-a618-eaf5d239b0f7)
+
 ## Additional Code 
 
 Add these code to the offcial library , mamba-ssm , in python/site-package/mamba-ssm/modules/mamba_simple.py 
