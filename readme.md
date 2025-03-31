@@ -73,3 +73,4 @@ Refer to [`pretrain.bash`](./pretrain.bash). You can modify the basic hyperparam
 - The only provided dataset is `ETTh1.csv`. If you need other datasets, add them to the `dataset/` folder.
 - Modify [`/dataprovider/dataArgs.py`](./dataprovider/dataArgs.py) to update `root_path` and `data_path` so they correctly point to your dataset files.
 - The code currently supports only the simple Mamba model.
+- The code do not provide enhanced noise mentioned in papers currently.
