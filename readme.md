@@ -2,7 +2,10 @@
 
 An official code implementation for Mamba repetitive contrastive learning.
 
-![pairwise_distance_matrix3](https://github.com/user-attachments/assets/7df8322c-e643-4df4-a618-eaf5d239b0f7)
+<img width="2349" height="526" alt="Method1-1" src="https://github.com/user-attachments/assets/a9fa8d2e-5470-419a-b9e9-e89b3e87542a" />
+
+
+<img width="1600" height="1600" alt="ADeltaVir-1" src="https://github.com/user-attachments/assets/330ab109-62ce-40ad-89de-5a45e3b92747" />
 
 ## Additional Code 
 
